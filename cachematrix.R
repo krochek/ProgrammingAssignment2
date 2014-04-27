@@ -20,7 +20,10 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function recieves an object from the type of makeCacheMatrix and
+## checks if the inverse is cached. If it is cached, the function will notify
+## this through a message and return the inverted matrix. If not, it will 
+## cache the Inverted matrix and return it.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
